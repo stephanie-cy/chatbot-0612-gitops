@@ -37,7 +37,7 @@ spec:
           value: "8001"
         - name: MODEL_PATH
           value: /model/model.file
-        - name: MODEL_CHAT_FORMAT
+        - name: CHAT_FORMAT
           value: openchat
         image: quay.io/ai-lab/llamacpp_python:latest
         volumeMounts:
